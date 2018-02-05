@@ -14,7 +14,7 @@ import AppLayout from './theme/Layout.vue'
 
 /* Our mian applaiction just renders the element */
 const app = new Vue({
-  render: h => h(AppLayout)
+  ...AppLayout
 })
 
 export { app }
